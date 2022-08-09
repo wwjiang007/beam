@@ -229,8 +229,10 @@ if __name__ == '__main__':
         'pydot>=1.2.0,<2',
         'python-dateutil>=2.8.0,<3',
         'pytz>=2018.3',
+        'regex>=2020.6.8',
         'requests>=2.24.0,<3.0.0',
         'typing-extensions>=3.7.0',
+        'zstandard>=0.18.0,<1',
       # Dynamic dependencies must be specified in a separate list, otherwise
       # Dependabot won't be able to parse the main list. Any dynamic
       # dependencies will not receive updates from Dependabot.
@@ -310,7 +312,7 @@ if __name__ == '__main__':
             'nbconvert>=6.2.0,<7',
             # headless chrome based integration tests
             'needle>=0.5.0,<1',
-            'chromedriver-binary>=100,<101',
+            'chromedriver-binary>=100,<106',
             # use a fixed major version of PIL for different python versions
             'pillow>=7.1.1,<8',
           ],
