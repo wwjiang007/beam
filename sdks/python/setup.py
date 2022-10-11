@@ -265,6 +265,7 @@ if __name__ == '__main__':
           ],
           'test': [
             'freezegun>=0.3.12',
+            'hypothesis<7',
             'joblib>=1.0.1',
             'mock>=1.0.1,<3.0.0',
             'pandas<2.0.0',
@@ -316,7 +317,7 @@ if __name__ == '__main__':
             'ipywidgets>=7.6.5,<8',
             # Skip version 6.1.13 due to
             # https://github.com/jupyter/jupyter_client/issues/637
-            'jupyter-client>=6.1.11,<6.1.13',
+            'jupyter-client>=6.1.11,<7.4.1',
             'timeloop>=1.0.2,<2',
           ],
           'interactive_test': [
